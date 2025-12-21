@@ -47,9 +47,15 @@
     <section class="menu-content">
         <div class="container">
 
+            <!-- Tabs -->
+            <div class="tabs-container">
+                <button class="tab-btn active" data-target="kahveler">Kahveler</button>
+                <button class="tab-btn" data-target="caylar">Çaylar</button>
+                <button class="tab-btn" data-target="tatlilar">Tatlılar</button>
+            </div>
+
             <!-- Kahveler -->
-            <div class="menu-category">
-                <h2>Kahveler</h2>
+            <div id="kahveler" class="menu-category-content active">
                 <div class="menu-grid">
                     <div class="menu-item">
                         <div class="item-header">
@@ -90,8 +96,7 @@
             </div>
 
             <!-- Çaylar -->
-            <div class="menu-category">
-                <h2>Çaylar</h2>
+            <div id="caylar" class="menu-category-content">
                 <div class="menu-grid">
                     <div class="menu-item">
                         <div class="item-header">
@@ -111,8 +116,7 @@
             </div>
 
             <!-- Tatlılar -->
-            <div class="menu-category">
-                <h2>Tatlılar</h2>
+            <div id="tatlilar" class="menu-category-content">
                 <div class="menu-grid">
                     <div class="menu-item">
                         <div class="item-header">
@@ -147,6 +151,7 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
