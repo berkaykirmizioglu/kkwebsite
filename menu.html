@@ -49,95 +49,165 @@
 
             <!-- Tabs -->
             <div class="tabs-container">
-                <button class="tab-btn active" data-target="kahveler">Kahveler</button>
+                <button class="tab-btn active" data-target="sicak-kahveler">Sıcak Kahveler</button>
+                <button class="tab-btn" data-target="soguk-kahveler">Soğuk Kahveler</button>
                 <button class="tab-btn" data-target="caylar">Çaylar</button>
-                <button class="tab-btn" data-target="tatlilar">Tatlılar</button>
+                <button class="tab-btn" data-target="soguk-icecekler">Soğuk İçecekler</button>
             </div>
 
-            <!-- Kahveler -->
-            <div id="kahveler" class="menu-category-content active">
+            <!-- Sıcak Kahveler -->
+            <div id="sicak-kahveler" class="menu-category-content active">
+                <!-- Espresso Bazlı -->
+                <div class="menu-category">
+                    <h2>Espresso Bazlı Kahveler</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-header"><span>Double Espresso</span><span class="price">80 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Americano</span><span class="price">90 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Cortado</span><span class="price">100 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Flat White</span><span class="price">100 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Cappuccino</span><span class="price">100 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Cafe Latte</span><span class="price">100 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Cafe Mocha</span><span class="price">110 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Red Eye</span><span class="price">140 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Black Eye</span><span class="price">170 TL</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Demleme & Pişirme -->
+                <div class="menu-category">
+                    <h2>Demleme & Pişirme Kahveler</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-header"><span>Filtre Kahve</span><span class="price">90 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>V60</span><span class="price">120 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Chemex</span><span class="price">120 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Türk Kahvesi</span><span class="price">80 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Duble Türk Kahvesi</span><span class="price">150 TL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ekstralar -->
+                <div class="menu-category">
+                    <h2>Ekstra İlave Süt ve Şuruplar</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-header"><span>Karamel / Vanilya / Fındık / Bal Kabağı</span><span
+                                    class="price">+20 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Çikolata & Beyaz Çikolata</span><span class="price">+20
+                                    TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Süt (Soğuk-Sıcak)</span><span class="price">+20 TL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soğuk Kahveler -->
+            <div id="soguk-kahveler" class="menu-category-content">
                 <div class="menu-grid">
                     <div class="menu-item">
-                        <div class="item-header">
-                            <span>Türk Kahvesi</span>
-                            <span class="price">₺80</span>
-                        </div>
-                        <div class="item-desc">Geleneksel usulde, közde pişmiş.</div>
+                        <div class="item-header"><span>Ice Americano</span><span class="price">110 TL</span></div>
                     </div>
                     <div class="menu-item">
-                        <div class="item-header">
-                            <span>Dibek Kahvesi</span>
-                            <span class="price">₺90</span>
-                        </div>
-                        <div class="item-desc">Yedi karışımlı özel harman.</div>
+                        <div class="item-header"><span>Ice Cafe Latte</span><span class="price">130 TL</span></div>
                     </div>
                     <div class="menu-item">
-                        <div class="item-header">
-                            <span>Menengiç Kahvesi</span>
-                            <span class="price">₺90</span>
-                        </div>
-                        <div class="item-desc">Süt ile hazırlanan yumuşak içim.</div>
+                        <div class="item-header"><span>Ice Cafe Mocha</span><span class="price">140 TL</span></div>
                     </div>
                     <div class="menu-item">
-                        <div class="item-header">
-                            <span>Espresso</span>
-                            <span class="price">₺70</span>
-                        </div>
-                        <div class="item-desc">Tek atım yoğun lezzet.</div>
+                        <div class="item-header"><span>Cold Brew</span><span class="price">125 TL</span></div>
                     </div>
                     <div class="menu-item">
-                        <div class="item-header">
-                            <span>Latte</span>
-                            <span class="price">₺110</span>
-                        </div>
-                        <div class="item-desc">Espresso ve sıcak sütün uyumu.</div>
+                        <div class="item-header"><span>Japanese Cold Brew</span><span class="price">300 TL</span></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span>Frappé</span><span class="price">125 TL</span></div>
                     </div>
                 </div>
             </div>
 
             <!-- Çaylar -->
             <div id="caylar" class="menu-category-content">
-                <div class="menu-grid">
-                    <div class="menu-item">
-                        <div class="item-header">
-                            <span>Demleme Çay</span>
-                            <span class="price">₺40</span>
+                <div class="menu-category">
+                    <h2>Ronnefeldt Bitki Çayları</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-header"><span>Sweet Ginger</span><span class="price">80 TL</span></div>
                         </div>
-                        <div class="item-desc">Rize'den gelen taze yapraklar.</div>
-                    </div>
-                    <div class="menu-item">
-                        <div class="item-header">
-                            <span>Bitki Çayları</span>
-                            <span class="price">₺60</span>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Green Angel</span><span class="price">80 TL</span></div>
                         </div>
-                        <div class="item-desc">Ihlamur, Adaçayı, Papatya, Yeşil Çay.</div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Rooibos Vanilla</span><span class="price">80 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Earl Gray</span><span class="price">80 TL</span></div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>English Breakfast</span><span class="price">80 TL</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header"><span>Lemon Sky</span><span class="price">80 TL</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Tatlılar -->
-            <div id="tatlilar" class="menu-category-content">
+            <!-- Soğuk İçecekler -->
+            <div id="soguk-icecekler" class="menu-category-content">
                 <div class="menu-grid">
                     <div class="menu-item">
-                        <div class="item-header">
-                            <span>San Sebastian Cheesecake</span>
-                            <span class="price">₺180</span>
-                        </div>
-                        <div class="item-desc">Akışkan kıvamlı, yanında çikolata sos ile.</div>
+                        <div class="item-header"><span>Soda</span><span class="price">60 TL</span></div>
                     </div>
                     <div class="menu-item">
-                        <div class="item-header">
-                            <span>Tiramisu</span>
-                            <span class="price">₺160</span>
-                        </div>
-                        <div class="item-desc">İtalyan usulü klasik lezzet.</div>
+                        <div class="item-header"><span>SU</span><span class="price">30 TL</span></div>
                     </div>
                     <div class="menu-item">
-                        <div class="item-header">
-                            <span>Çikolatalı Islak Kek</span>
-                            <span class="price">₺140</span>
+                        <div class="item-header"><span>Cool Lime Refresha</span><span class="price">100 TL</span></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span>Orange & Mango Refresha</span><span class="price">100 TL</span>
                         </div>
-                        <div class="item-desc">Bol çikolata soslu.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span>Berry & Hibiscus Refresha</span><span class="price">100 TL</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span>Watermelon Refresha</span><span class="price">100 TL</span></div>
                     </div>
                 </div>
             </div>
