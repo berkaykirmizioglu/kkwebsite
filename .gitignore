@@ -1,0 +1,24 @@
+# Excel / Office source files
+*.xlsx
+*.xls
+*.docx
+*.doc
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local environment
+.env
+.env.local
+
+# Claude Code local settings
+.claude/settings.local.json
