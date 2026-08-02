@@ -257,83 +257,33 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Rate Us CTA */
-.rate-cta {
-    padding: 0 0 80px;
-}
-
-.rate-cta-card {
-    display: flex;
+/* Rate Us bar */
+.rate-bar {
+    display: inline-flex;
     align-items: center;
-    gap: 20px;
-    max-width: 680px;
-    margin: 0 auto;
-    padding: 18px 24px;
-    background: linear-gradient(135deg, rgba(255, 87, 51, 0.14) 0%, rgba(255, 87, 51, 0.04) 100%);
+    gap: 10px;
+    padding: 8px 18px;
+    margin-bottom: 22px;
     border: 1px solid rgba(255, 87, 51, 0.35);
-    border-radius: 14px;
+    border-radius: 999px;
     color: var(--text-color);
+    font-size: 0.85rem;
+    white-space: nowrap;
     transition: 0.3s ease;
 }
 
-.rate-cta-card:hover {
-    transform: translateY(-2px);
+.rate-bar:hover {
     border-color: var(--accent-color);
-    box-shadow: 0 6px 20px rgba(255, 87, 51, 0.18);
+    box-shadow: 0 4px 14px rgba(255, 87, 51, 0.18);
 }
 
-.rate-cta-stars {
+.rate-bar-stars {
     color: #fbbf24;
-    font-size: 1.4rem;
-    letter-spacing: 0.15em;
-    flex-shrink: 0;
+    letter-spacing: 0.1em;
 }
 
-.rate-cta-text {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    text-align: left;
-    flex: 1;
-    min-width: 0;
-}
-
-.rate-cta-text strong {
-    font-family: var(--font-heading);
-    font-size: 1.1rem;
-    line-height: 1.2;
-}
-
-.rate-cta-text span {
-    color: var(--muted-color);
-    font-size: 0.85rem;
-}
-
-.rate-cta-action {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 18px;
-    background: var(--accent-color);
-    color: #fff;
-    border-radius: 999px;
-    font-weight: 600;
-    font-size: 0.9rem;
-    flex-shrink: 0;
-    white-space: nowrap;
-}
-
-@media (max-width: 600px) {
-    .rate-cta-card {
-        flex-direction: column;
-        text-align: center;
-        gap: 12px;
-        padding: 22px 20px;
-    }
-
-    .rate-cta-text {
-        text-align: center;
-    }
+.rate-bar .fa-google {
+    color: var(--accent-color);
 }
 
 /* Tabs */
