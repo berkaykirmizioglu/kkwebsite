@@ -5,66 +5,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biz Kimiz - Karakuğu Kahvehanesi</title>
+    <meta name="description" content="Karakuğu Kahvehanesi'nin hikayesi: kaliteli espresso, özenle seçilen çekirdekler ve güler yüzlü hizmet.">
+    <meta name="theme-color" content="#14110f">
+    <link rel="canonical" href="https://www.karakugukahvehanesi.com/about/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Biz Kimiz - Karakuğu Kahvehanesi">
+    <meta property="og:description" content="Karakuğu Kahvehanesi'nin hikayesi: kaliteli espresso, özenle seçilen çekirdekler ve güler yüzlü hizmet.">
+    <meta property="og:image" content="https://www.karakugukahvehanesi.com/assets/logo.png">
     <link rel="icon" type="image/png" href="/assets/logo.png">
+    <script>document.documentElement.classList.add('js');</script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400..700&family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/style.css?v=4">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css?v=16">
+    <script src="/script.js?v=16" defer></script>
 </head>
 
 <body>
+    <a class="skip-link" href="#main">İçeriğe geç</a>
 
     <!-- Header -->
-    <header>
-        <div class="container">
-            <nav>
-                <a href="/" class="logo">
-                    <img src="/assets/logo.png" alt="Karakuğu Logo">
-                    <span>Karakuğu Kahvehanesi</span>
-                </a>
-                <ul class="nav-links">
+    <header class="site-header">
+        <div class="container nav">
+            <a href="/" class="brand" aria-label="Karakuğu Kahvehanesi, ana sayfa">
+                <img src="/assets/logo.png" alt="" width="42" height="42">
+                <span>Karakuğu <em>Kahvehanesi</em></span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+                aria-label="Menüyü aç">
+                <svg class="icon icon-open" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg>
+                <svg class="icon icon-close" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+            <nav id="site-nav" class="site-nav" aria-label="Ana menü">
+                <ul>
                     <li><a href="/">Ana Sayfa</a></li>
-                    <li><a href="/about" class="active" style="color: var(--accent-color);">Biz Kimiz</a></li>
-                    <li><a href="/menu">Menü</a></li>
-                    <li><a href="/contact">İletişim</a></li>
+                    <li><a href="/about/" aria-current="page">Biz Kimiz</a></li>
+                    <li><a href="/menu/">Menü</a></li>
+                    <li><a href="/contact/">İletişim</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <h1>Biz Kimiz?</h1>
-            <p>Karakuğu Kahvehanesi'nin hikayesi.</p>
-        </div>
-    </section>
+    <main id="main">
+        <section class="page-header">
+            <div class="container">
+                <span class="eyebrow">Hikayemiz</span>
+                <h1>Biz Kimiz?</h1>
+                <p>Karakuğu Kahvehanesi'nin hikayesi.</p>
+            </div>
+        </section>
 
-    <!-- About Content -->
-    <section id="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=2671&auto=format&fit=crop"
-                        alt="Cafe Interior" style="width: 100%; border-radius: 10px;">
-                </div>
-                <div class="about-text">
-                    <h3>Size ne sunuyoruz?</h3>
-                    <p>Karakuğu Kahvehanesi olarak önceliğimiz kaliteli espresso ve gerçek kahve deneyimi. Güler yüzlü
-                        hizmetimiz ve özenle seçilen çekirdeklerimizle, her yudumda kaliteyi hissedeceğiniz samimi bir
-                        ortam sunuyoruz.</p>
+        <section class="section">
+            <div class="container">
+                <div class="split">
+                    <div class="split-media">
+                        <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=70&w=1200&auto=format&fit=crop" alt="Ahşap tezgâh üzerinde taze öğütülmüş kahveyle dolu portafiltreler" width="1200" height="800">
+                    </div>
+                    <div class="split-text">
+                        <span class="eyebrow">Karakuğu</span>
+                        <h2>Size ne sunuyoruz?</h2>
+                        <p>Karakuğu Kahvehanesi olarak önceliğimiz kaliteli espresso ve gerçek kahve deneyimi. Güler
+                            yüzlü hizmetimiz ve özenle seçilen çekirdeklerimizle, her yudumda kaliteyi hissedeceğiniz
+                            samimi bir ortam sunuyoruz.</p>
+                        <ul class="values">
+                            <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M6 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/></svg> Kaliteli espresso</li>
+                            <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 5c3 3 2.5 9-1.5 13S7 22.500 4 19.500 1.500 10.500 5.500 6.500 16 2 19 5z"/><path d="M5 19c2-4 3-5 7-7s5-3 7-7"/></svg> Özenle seçilen çekirdekler</li>
+                            <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.500 2 4 2 4-2 4-2"/><path d="M9 9h.01"/><path d="M15 9h.01"/></svg> Güler yüzlü hizmet</li>
+                        </ul>
+                        <a href="/menu/" class="btn btn--primary">Menüyü Keşfedin <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <footer>
+    <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2024 Karakuğu Kahvehanesi. Tüm hakları saklıdır.</p>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="brand" aria-label="Karakuğu Kahvehanesi, ana sayfa">
+                        <img src="/assets/logo.png" alt="" width="42" height="42" loading="lazy">
+                        <span>Karakuğu <em>Kahvehanesi</em></span>
+                    </a>
+                    <p>Geleneksel lezzetlerin modern yorumu. Her fincanda ayrı bir hikaye.</p>
+                </div>
+                <div>
+                    <h2>Ziyaret</h2>
+                    <address>
+                        Cumhuriyet, Atatürk Cd. No:59B<br>
+                        Şarköy-Tekirdağ<br>
+                        Her gün 08:00 – 20:00<br>
+                        <a href="tel:+905336359689">+90 533 635 96 89</a>
+                    </address>
+                </div>
+                <div>
+                    <h2>Keşfet</h2>
+                    <ul>
+                        <li><a href="/menu/">Menü</a></li>
+                        <li><a href="/about/">Biz Kimiz</a></li>
+                        <li><a href="/contact/">İletişim</a></li>
+                        <li><a href="https://maps.google.com/?cid=2510651798186895767" target="_blank" rel="noopener">Google'da değerlendirin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Karakuğu Kahvehanesi. Tüm hakları saklıdır.</p>
+            </div>
         </div>
     </footer>
 
